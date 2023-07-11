@@ -6,17 +6,23 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Prima lezione di <span className="color">React</span> conclusa!</h1>
+        <br />
+        <br />
+        <h2>Cosa ho studiato oggi:</h2>
+        <br />
+        <br />
+        <div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Affrontato l'introduzione a React
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <hr />
+        <p>Compreso la struttura di una repository React</p>
+        <hr />
+        <p>Installato le estensioni consigliate</p>
+        <hr />
+        <p>Studiato la sintassi JSX</p>
+        </div>
       </header>
     </div>
   );
